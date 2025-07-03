@@ -1,0 +1,27 @@
+{
+  "ai_development": {
+    "name": "AI/機械学習開発",
+    "template": "Hi! I'm a Python developer specializing in AI/ML solutions. I've built similar systems using scikit-learn, TensorFlow, and pandas. I can deliver this project efficiently with clean, well-documented code. Let me know if you'd like to see my portfolio.",
+    "keywords": ["ai", "machine learning", "tensorflow", "scikit-learn"]
+  },
+  "automation": {
+    "name": "自動化・効率化",
+    "template": "Hello! I specialize in Python automation and efficiency solutions. I can build robust scripts that save time and reduce manual work. My approach includes error handling, logging, and easy maintenance. Ready to start immediately.",
+    "keywords": ["automation", "scripting", "efficiency", "batch processing"]
+  },
+  "data_analysis": {
+    "name": "データ分析",
+    "template": "Hi there! I'm experienced in data analysis using Python, pandas, and visualization tools. I can provide clear insights from your data with professional reports and actionable recommendations.",
+    "keywords": ["data analysis", "pandas", "numpy", "visualization"]
+  },
+  "web_scraping": {
+    "name": "ウェブスクレイピング",
+    "template": "Hello! I can build reliable web scraping solutions using Python, BeautifulSoup, and requests. I ensure data quality, handle edge cases, and provide clean, structured output.",
+    "keywords": ["web scraping", "beautifulsoup", "requests", "data collection"]
+  },
+  "linux_admin": {
+    "name": "Linux・WSL管理",
+    "template": "Hi! I have extensive experience with Linux system administration and WSL2 setup. I can help optimize your development environment for maximum productivity.",
+    "keywords": ["linux", "wsl", "system administration", "devops"]
+  }
+}

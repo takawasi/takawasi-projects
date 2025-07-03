@@ -1,0 +1,26 @@
+x{
+  "search_keywords": [
+    "python",
+    "ai", 
+    "machine learning",
+    "automation",
+    "wsl",
+    "linux",
+    "data analysis",
+    "web scraping"
+  ],
+  "score_thresholds": {
+    "notification": 80,
+    "high_priority": 70,
+    "medium_priority": 50
+  },
+  "budget_preferences": {
+    "hourly_min": 65,
+    "hourly_max": 200,
+    "fixed_min": 500
+  },
+  "notification_settings": {
+    "methods": ["terminal", "file"],
+    "frequency": "immediate"
+  }
+}

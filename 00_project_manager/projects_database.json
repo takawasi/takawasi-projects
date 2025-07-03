@@ -1,0 +1,66 @@
+{
+  "last_updated": "2025-07-03T11:30:00",
+  "projects": {
+    "upwork_monitor_personal": {
+      "category": "02_personal_tools",
+      "name": "Upwork案件監視システム (個人用)",
+      "status": "稼働中",
+      "type": "営業自動化",
+      "language": "Python",
+      "last_used": "2025-07-03",
+      "priority": "高",
+      "description": "Upwork案件の自動収集・分析・通知システム。takawasi営業活動の効率化。",
+      "commands": {
+        "run": "python3 src/main.py --quick",
+        "analyze": "python3 src/analyzer.py",
+        "config": "nano config/settings.json"
+      },
+      "value": "年間334時間節約、営業効率向上"
+    },
+    "upwork_monitor_demo": {
+      "category": "01_client_demos",
+      "name": "Upwork案件監視システム (デモ版)",
+      "status": "展示用",
+      "type": "営業材料",
+      "language": "Python", 
+      "last_used": "2025-07-03",
+      "priority": "中",
+      "description": "クライアント向けデモ。「Built this already. Want it?」営業用システム。",
+      "commands": {
+        "demo": "python3 src/main.py",
+        "show": "cat README_DEMO.md"
+      },
+      "value": "$300-800 営業材料、技術力証明"
+    },
+    "claude_wsl_powerhouse": {
+      "category": "04_wsl_projects",
+      "name": "Claude×WSL2協働開発環境",
+      "status": "完成",
+      "type": "開発基盤",
+      "language": "Python",
+      "last_used": "2025-07-03",
+      "priority": "高",
+      "description": "AI協働開発環境実証プロジェクト。WSL2統合開発システム。",
+      "commands": {
+        "run": "python3 src/main.py",
+        "test": "python3 tests/test_integration.py"
+      },
+      "value": "開発効率25-45倍向上実証"
+    },
+    "takawasi_portfolio": {
+      "category": "01_client_demos",
+      "name": "takawasi収益化ポートフォリオ",
+      "status": "稼働中",
+      "type": "営業システム",
+      "language": "Python",
+      "last_used": "2025-07-03", 
+      "priority": "最高",
+      "description": "収益化特化システム。完品営業・価格設定・メトリクス管理。",
+      "commands": {
+        "demo": "python3 demos/professional_demo.py",
+        "track": "python3 docs/sales_tracker.py"
+      },
+      "value": "$65-200/時間 収益化システム"
+    }
+  }
+}
