@@ -1,0 +1,48 @@
+# 個人データ・設定ファイル除外
+*/data/*.json
+*/logs/*.log
+*/**/data/*.json
+*/**/logs/*.log
+
+# 個人用設定・実行結果除外
+02_personal_tools/*/config/personal_settings.json
+02_personal_tools/*/data/
+02_personal_tools/*/logs/
+*/reports/*.txt
+*/reports/*.html
+
+# Python関連
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.coverage
+*.egg-info/
+
+# システムファイル
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# IDE・エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ログ・一時ファイル
+*.log
+*.tmp
+logs/
+temp/
+
+# 個人的メモ・TODO
+personal_notes.md
+todo.txt
+.env
+.env.local
